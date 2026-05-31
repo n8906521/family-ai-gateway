@@ -1,0 +1,55 @@
+# ==============================================================================
+# Python & Execution Environment
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env_dir/
+
+# ==============================================================================
+# Secrets & Configuration (CRITICAL)
+# ==============================================================================
+# Never commit environment variables or API keys
+.env
+.env.*
+.env.local
+*.secret
+credentials.json
+
+# ==============================================================================
+# Logs & Local Data
+# ==============================================================================
+# Ignore local log files (PM2 handles global, but just in case you add file logging)
+*.log
+logs/
+
+# Ignore any SQLite DBs or local storage you might add for agent memory later
+*.sqlite3
+*.db
+data/
+
+# ==============================================================================
+# OS & Editor Settings
+# ==============================================================================
+# VS Code
+.vscode/
+
+# macOS / Windows 
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# node_modules (if you have a frontend or use npm for any reason)
+node_modules/
+
+# cloudflared
+cloudflared.deb
+
+# webui_secrets
+.webui_secret_key
