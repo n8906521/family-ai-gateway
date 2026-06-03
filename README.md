@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Hybrid AI Homelab Gateway
 
 A production-grade, "scale-to-zero" AI routing gateway built for a high-performance Windows/WSL2 workstation. This stack intelligently routes user prompts from a unified web interface to either a local GPU cluster (Ollama) or cloud-based AI agent teams (Google Gemini), securely exposed to the outside world via Cloudflare Zero Trust.
@@ -29,8 +28,6 @@ In your Windows user directory (`%USERPROFILE%`), create a `.wslconfig` file to 
 memory=32GB
 processors=8
 swap=0
-
-```
 
 *Run `wsl --shutdown` in PowerShell after creating this to apply the limits.*
 
